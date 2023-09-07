@@ -1,0 +1,20 @@
+------------------------------------------------------------------------------------
+True
+------------------------------------------------------------------------------------
+Provide your target model ! 
+---------------------Training [train_gan - first stage]------------------------------
+-----------------------------------------------------------------
+Running time: 2023-09-07_08-34-06
+gan_file_path: ./data/ganset.txt
+model_name: train_gan - first stage
+name: celeba
+img_path: ./data/img_align_celeba_png
+n_classes: 1000
+lr: 0.0002
+batch_size: 64
+z_dim: 100
+epochs: 120
+n_critic: 5
+unlabel_weight: 10
+-----------------------------------------------------------------
+Initializing data loader took 8s

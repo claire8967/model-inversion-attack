@@ -82,8 +82,10 @@ if __name__ == "__main__":
     print("------------------------------------------------------------------------------------")
     
     if model_name_T.startswith("VGG16"):
-        T = VGG16(8)
-        path_T = './target_models/target_ckp/facenet_epoch149.tar'
+        T = VGG16(1000)
+        print("Provide your target model ! ")
+        target_model_name = input()
+        path_T = './target_models/target_ckp/{}.tar'.format(target_model_name)
     elif model_name_T.startswith('IR152'):
         T = IR152(1000)
         path_T = './target_model/target_ckp/IR152_91.16.tar'
