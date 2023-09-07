@@ -1,0 +1,1 @@
+Epoch:0	Time:31.46	Train Loss:5.94	Train Acc:4.66	Test Acc:7.95

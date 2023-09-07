@@ -1,0 +1,6 @@
+data/img_align_celeba_png/
+result/
+target_models/
+target_model/
+weights/
+__pycache__/
